@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Calculator</title>
+    <link href="./src/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-sky-300 text-slate-100 min-h-screen flex items-center justify-center p-6 max-w-xl mx-auto">
+
+    <div class="container bg-white text-black px-5 rounded-md">
+        <h1 class="mt-4 text-center font-bold text-xl">Semester 4</h1>
+        <h1 class="mt-1 mb-4 text-center text-lg">Ilmu Komputer 2026</h1>
+
+        <div class="matkul ">
+            <div class="pemrog flex justify-between mb-2 bg-amber-100  gap-2 rounded-sm shadow-lg px-2 py-3">
+                <h2 class="font-semibold">Pemrograman</h2>
+                <select class="border-2 border-neutral-600 text-sm max-w-20 text-wrap text-center border- rounded-md"
+                    name="pemrog" id="pemrog">
+                    <option value="none">Belum memilih</option>
+                    <option value="4">A</option>
+                    <option value="3.5">AB</option>
+                    <option value="3">B</option>
+                    <option value="2.5">BC</option>
+                    <option value="2">C</option>
+                    <option value="1">D</option>
+                    <option value="0">E</option>
+                </select>
+            </div>
+            <div class="oak flex justify-between mb-2 bg-amber-100  gap-2 rounded-sm shadow-lg px-2 py-3">
+                <h2 class="font-semibold">Organisasi dan Arsitektur Komputer</h2>
+                <select class="border-2 border-neutral-600 text-sm max-w-20 text-wrap text-center border- rounded-md"
+                    name="oak" id="oak">
+                    <option value="none">Belum memilih</option>
+                    <option value="4">A</option>
+                    <option value="3.5">AB</option>
+                    <option value="3">B</option>
+                    <option value="2.5">BC</option>
+                    <option value="2">C</option>
+                    <option value="1">D</option>
+                    <option value="0">E</option>
+                </select>
+            </div>
+            <div class="strukdat flex justify-between mb-2 bg-amber-100  gap-2 rounded-sm shadow-lg px-2 py-3">
+                <h2 class="font-semibold">Struktur Data</h2>
+                <select class="border-2 border-neutral-600 text-sm max-w-20 text-wrap text-center border- rounded-md"
+                    name="strukdat" id="strukdat">
+                    <option value="none">Belum memilih</option>
+                    <option value="4">A</option>
+                    <option value="3.5">AB</option>
+                    <option value="3">B</option>
+                    <option value="2.5">BC</option>
+                    <option value="2">C</option>
+                    <option value="1">D</option>
+                    <option value="0">E</option>
+                </select>
+            </div>
+            <div class="metkuan flex justify-between mb-2 bg-amber-100  gap-2 rounded-sm shadow-lg px-2 py-3">
+                <h2 class="font-semibold">Metode Kuantitatif</h2>
+                <select class="border-2 border-neutral-600 text-sm max-w-20 text-wrap text-center border- rounded-md"
+                    name="metkuan" id="metkuan">
+                    <option value="none">Belum memilih</option>
+                    <option value="4">A</option>
+                    <option value="3.5">AB</option>
+                    <option value="3">B</option>
+                    <option value="2.5">BC</option>
+                    <option value="2">C</option>
+                    <option value="1">D</option>
+                    <option value="0">E</option>
+                </select>
+            </div>
+            <div class="rpl flex justify-between mb-2 bg-amber-100  gap-2 rounded-sm shadow-lg px-2 py-3">
+                <h2 class="font-semibold">Rekayasa Perangkat Lunak</h2>
+                <select class="border-2 border-neutral-600 text-sm max-w-20 text-wrap text-center border- rounded-md"
+                    name="rpl" id="rpl">
+                    <option value="none">Belum memilih</option>
+                    <option value="4">A</option>
+                    <option value="3.5">AB</option>
+                    <option value="3">B</option>
+                    <option value="2.5">BC</option>
+                    <option value="2">C</option>
+                    <option value="1">D</option>
+                    <option value="0">E</option>
+                </select>
+            </div>
+            <div class="dpp flex justify-between mb-2 bg-amber-100  gap-2 rounded-sm shadow-lg px-2 py-3">
+                <h2 class="font-semibold">Desain Pengalaman Pengguna</h2>
+                <select class="border-2 border-neutral-600 text-sm max-w-20 text-wrap text-center border- rounded-md"
+                    name="dpp" id="dpp">
+                    <option value="none">Belum memilih</option>
+                    <option value="4">A</option>
+                    <option value="3.5">AB</option>
+                    <option value="3">B</option>
+                    <option value="2.5">BC</option>
+                    <option value="2">C</option>
+                    <option value="1">D</option>
+                    <option value="0">E</option>
+                </select>
+            </div>
+            <div class="gkv flex justify-between mb-2 bg-amber-100  gap-2 rounded-sm shadow-lg px-2 py-3">
+                <h2 class="font-semibold">Grafika Komputer dan Visualisasi</h2>
+                <select class="border-2 border-neutral-600 text-sm max-w-20 text-wrap text-center rounded-md" name="gkv"
+                    id="gkv">
+                    <option value="none">Belum memilih</option>
+                    <option value="4">A</option>
+                    <option value="3.5">AB</option>
+                    <option value="3">B</option>
+                    <option value="2.5">BC</option>
+                    <option value="2">C</option>
+                    <option value="1">D</option>
+                    <option value="0">E</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="mt-5">
+            <p class="text-center font-semibold mb-3 text-lg">Apakah melakukan convert sks?</p>
+            <div class="convert text-center mb-5">
+                <button
+                    class="bg-green-600 text-white font-semibold shadow-md rounded-lg py-2 w-2/5 active:scale-95 transition-transform"
+                    id="lakukanConvert">Ya</button>
+                <button
+                    class="bg-red-600 text-white font-semibold shadow-md rounded-lg py-2 w-2/5 active:scale-95 transition-transform"
+                    id="tidakConvert">Tidak</button>
+            </div>
+        </div>
+
+        <div id="container-input-convert" class="hidden border-2 border-gray-200 rounded-lg p-5 mt-5 bg-slate-50">
+            <p class="text-lg font-bold mb-3 text-black">Data Matkul Convert</p>
+
+            <div class="mb-4">
+                <label class="text-sm text-gray-500">Banyak Matkul yang dikonversi:</label>
+                <input type="number" id="matkulConvert"
+                    class="border-2 border-gray-400 rounded-lg px-2 py-1 w-full outline-none focus:border-sky-500"
+                    placeholder="Contoh: 2">
+            </div>
+
+            <div id="form-dinamis-convert" class="space-y-3 mb-4"></div>
+
+            <button id="btnSubmitConvert"
+                class="bg-sky-600 text-white font-semibold shadow-md rounded-lg py-2 w-full active:scale-95 transition-transform">
+                Submit & Hitung
+            </button>
+        </div>
+
+        <div id="container-nilai" class="hidden  text-white py-6 pt-0 rounded-xl text-center mt-2  shadow-xl">
+            <p class="text-xs text-slate-400 uppercase tracking-widest mb-1">Indeks Prestasi Semester</p>
+            <span id="nilai-akhir" class="text-5xl font-black text-sky-900 italic">0.00</span>
+        </div>
+
+    </div>
+    
+    <script src="./src/script.js"></script>
+</body>
+
+</html>
